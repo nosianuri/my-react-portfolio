@@ -11,9 +11,9 @@ const Contact = () => {
   const form = useRef()
 
   useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
+    // return setTimeout(() => {
+    //   setLetterClass('text-animate-hover')
+    // }, 3000)
   }, [])
 
   const sendEmail = (e) => {
@@ -92,7 +92,7 @@ const Contact = () => {
           Branka RadiČevića 19, 22000 <br />
           Sremska Mitrovica <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>nurinosia@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[44.96366, 19.61045]} zoom={13}>
